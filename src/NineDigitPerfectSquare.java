@@ -18,7 +18,8 @@ import java.util.Arrays;
  * 2) Test your implementation by developing suitable test suite in the
  * NineDigitPerfectSquareTest JUnit test case.
  *
- * @author:
+ * @author:Auxa
+ * Assignment 1 solution for Algos 31-1-16
  *
  */
 
@@ -42,7 +43,7 @@ public class NineDigitPerfectSquare {
     	odd=1;
     	s=1;
     	r=0;
-    	int[] perfectSqrz = new int [x/40];
+    	int[] perfectSqrz = new int [x/80];
     	while(s<=x){
     	//	r++;
     		odd+=2;
